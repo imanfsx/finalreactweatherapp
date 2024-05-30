@@ -1,0 +1,61 @@
+/* Center the Weather component */
+.Weather {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  border-radius: 4px;
+  color: #685454; /* Using hex code for consistency */
+  background-color: #ea8a8a; /* Added background color for better contrast */
+  margin: 0 auto; /* Center the component horizontally */
+  max-width: 600px; /* Limit the maximum width of the component */
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 300; /* Adjusted font weight */
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Ensure list style is none */
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 300; /* Adjusted font weight */
+  line-height: 19px;
+  margin-bottom: 5px; /* Added margin for better spacing */
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 10px;
+  margin-top: 0; /* Ensure margin-top is zero */
+}
+
+.Weather canvas {
+  margin: 10px auto;
+  display: block; /* Ensure canvas is block for margin to work */
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+/* Box around the entire app */
+.App {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Border radius */
+  padding: 20px; /* Padding */
+  max-width: 600px; /* Limit the maximum width of the app */
+  margin: 20px auto; /* Center the app horizontally */
+}

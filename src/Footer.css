@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 10px; /* Adjust padding as needed */
+  background-color: #ea8a8a; /* Footer background color */
+  color: #ffffff; /* Footer text color */
+}
+
+.footer a {
+  color: #d7aef3; /* Link color */
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
