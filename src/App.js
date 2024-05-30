@@ -29,7 +29,11 @@ export default function App() {
             available on GitHub
           </a>{" "}
           and{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://iman-reactweatherapp.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Vercel
           </a>
         </footer>
